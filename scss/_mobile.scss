@@ -17,10 +17,12 @@
     main {
         align-items: center;
         text-align: center;
+        font-size: 10px;
 
         .lg-heading {
             line-height: 1;
             margin-bottom: 1rem;
+            font-size: 4rem;
         }
     }
 
@@ -51,6 +53,11 @@
         }
     }
 
+    .bio-image {
+        width: 200px;
+        height: 200px;
+    }
+
     .about-info {
         grid-template-areas:
         'bioimage'
@@ -59,6 +66,18 @@
         'job2'
         'job3';
         grid-template-columns: 1fr;
+
+        .bio {
+            font-size: 1rem;
+        }
+
+        .job {
+            text-align: left;
+        }
+    }
+
+    .job-description {
+        padding: 10px;
     }
 
     .projects {
